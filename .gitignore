@@ -21,3 +21,5 @@ resources/database/cafe.mwb.bak
 .idea/misc.xml
 .idea/libraries
 .idea/vcs.xml
+gradlew
+gradlew.bat

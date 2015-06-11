@@ -1,13 +1,10 @@
 package mindonal.proto.entity;
 
 import lombok.Data;
-import mindonal.proto.entity.converter.LocalDateTimePersistenceConverter;
 
 import javax.persistence.Column;
-import javax.persistence.Convert;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import java.time.LocalDateTime;
 
 /**
  * Created by mindonal.dev@gmail.com on 6/11/15.
@@ -25,7 +22,7 @@ public class Member {
     @Column
     private String desc;
 
-    @Column(name = "create_datetime")
-    @Convert(converter = LocalDateTimePersistenceConverter.class)
-    private LocalDateTime update_dt = LocalDateTime.now();
+//    @Column(name = "update_dt")
+//    @Convert(converter = LocalDateConverter.class)
+//    private LocalDateTime updateDt;
 }
