@@ -8,6 +8,16 @@ resources/database/cafe.mwb.bak
 
 # IntelliJ
 *.iml
-/.idea
 
 .idea
+.idea/.name
+.idea/gradle.xml
+.idea/uiDesigner.xml
+.idea/sqldialects.xml
+.idea/compiler.xml
+.idea/workspace.xml
+.idea/copyright
+.idea/modules.xml
+.idea/misc.xml
+.idea/libraries
+.idea/vcs.xml
